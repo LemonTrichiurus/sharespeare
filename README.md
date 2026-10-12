@@ -108,7 +108,7 @@ psql "$DATABASE_URL" -f supabase/tests/rls_test.sql
 
 ## History
 
-Sharespeare started in 2025 as a student-run news and sharing site at a high school in Shanghai. School rules at the time required real-name school email accounts and review of every post before publication, so the first version was built around a review queue. In 2026, with those requirements gone, I rebuilt it as an open community: post-moderation instead of pre-review, any email can sign up, authorization moved from scattered app code into the database, and unused sections were removed.
+Sharespeare started in 2025 as a student-run news and sharing site at a high school in Shanghai. School rules at the time required real-name school email accounts and review of every post before publication, so the first version was built around a review queue. After I graduated in 2026, the site no longer operated under school review, so I rebuilt it as an open community with the help of an AI coding agent (Claude Code): post-moderation instead of pre-review, any email can sign up, authorization moved from scattered app code into the database, and unused sections were removed.
 
 ## License
 
