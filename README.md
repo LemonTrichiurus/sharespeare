@@ -2,7 +2,7 @@
 
 A bilingual (中文 / English) community site where high-school students share summer-school stories, course advice and creative work, and discuss them on a topic board.
 
-**Live demo:** _coming soon_
+**Live demo:** https://sharespeare-roan.vercel.app
 
 > **中文简介**：Sharespeare 是一个由学生运营的分享社区——夏校纪事、选课心得、创作与故事，以及留言板讨论。注册即可发帖，内容先发后管：版主可以隐藏内容，用户可以举报。基于 Next.js 15 与 Supabase（Postgres + 行级安全）构建，中英双语。
 
