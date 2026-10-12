@@ -1,0 +1,51 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 左侧书本 -->
+  <g transform="translate(20, 40)">
+    <!-- 书本主体 -->
+    <rect x="0" y="20" width="50" height="35" fill="none" stroke="black" stroke-width="2"/>
+    <!-- 书本页面线条 -->
+    <line x1="5" y1="25" x2="45" y2="25" stroke="black" stroke-width="1"/>
+    <line x1="5" y1="30" x2="45" y2="30" stroke="black" stroke-width="1"/>
+    <line x1="5" y1="35" x2="45" y2="35" stroke="black" stroke-width="1"/>
+    <line x1="5" y1="40" x2="45" y2="40" stroke="black" stroke-width="1"/>
+    <line x1="5" y1="45" x2="45" y2="45" stroke="black" stroke-width="1"/>
+    <line x1="5" y1="50" x2="45" y2="50" stroke="black" stroke-width="1"/>
+    <!-- 书本封面 -->
+    <rect x="-3" y="15" width="50" height="35" fill="none" stroke="black" stroke-width="2"/>
+  </g>
+
+  <!-- Campus Pulse 文字 -->
+  <text x="90" y="70" font-family="serif" font-size="36" font-weight="bold" fill="black" font-style="italic">Campus</text>
+  
+  <!-- 右侧毕业帽和书本堆 -->
+  <g transform="translate(320, 30)">
+    <!-- 毕业帽 -->
+    <polygon points="0,25 50,25 50,30 0,30" fill="black"/>
+    <polygon points="10,20 40,20 25,10" fill="black"/>
+    <circle cx="45" cy="22" r="2" fill="black"/>
+    <line x1="47" y1="22" x2="55" y2="15" stroke="black" stroke-width="1"/>
+    
+    <!-- 书本堆叠 -->
+    <rect x="5" y="35" width="40" height="6" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="8" y="41" width="34" height="6" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="11" y="47" width="28" height="6" fill="none" stroke="black" stroke-width="2"/>
+  </g>
+
+  <!-- 心跳线 -->
+  <g transform="translate(0, 110)">
+    <path d="M 20 0 L 80 0 L 90 -15 L 100 15 L 110 -20 L 120 20 L 130 -10 L 140 0 L 180 0" 
+          fill="none" stroke="black" stroke-width="3"/>
+  </g>
+
+  <!-- Pulse 文字 -->
+  <text x="190" y="130" font-family="serif" font-size="36" font-weight="bold" fill="black" font-style="italic">Pulse</text>
+
+  <!-- 右侧心跳线 -->
+  <g transform="translate(280, 110)">
+    <path d="M 0 0 L 40 0 L 50 -15 L 60 15 L 70 -20 L 80 20 L 90 -10 L 100 0 L 120 0" 
+          fill="none" stroke="black" stroke-width="3"/>
+  </g>
+
+  <!-- 底部标语 -->
+  <text x="200" y="170" font-family="serif" font-size="18" font-style="italic" fill="black" text-anchor="middle">Catch the beat of campus</text>
+</svg>
